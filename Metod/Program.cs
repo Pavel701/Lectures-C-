@@ -10,7 +10,7 @@
 // }
 // Metod2(msg: "Text meseger");
 
-void Metod22(int msg, int count)
+void Metod22(string msg, int count)
 {
 int i = 0;
 while(i < count)
@@ -19,4 +19,18 @@ while(i < count)
     i++;
 }
 }
-Metod22(msg: 152, count: 4);
+//Metod22(msg: "Text mesenger", count: 3);
+
+int Metod3()
+{
+    return DateTime.Now.Year;
+
+}
+// int year = Metod3();
+// System.Console.WriteLine(year);
+
+string Metod4(int count, string text)
+{
+
+
+}
