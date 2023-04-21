@@ -74,11 +74,11 @@
 
 int sum = 0;
 int[] arr = { 1, 2, 3, 4, 5 };
-for (int i = 0; i < arr.Length; i++)
+foreach (int element in arr)
 {
-int element = arr[i];
-Console.Write($" {element}");
+ Console.Write($" {element}");
 }
+
 for (int i = 0; i < arr.Length; i++)
 {
 sum += arr[i];
